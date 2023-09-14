@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Task2 {
     static void Sum()
     {
-        int n = 0, size;
+        int n, size;
         float avg = 0, sum = 0;
         Scanner scan = new Scanner(System.in);
 

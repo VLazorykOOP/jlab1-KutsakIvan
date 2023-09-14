@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Task3 {
     static  int InputSize() {
-        int n = 0;
+        int n;
         Scanner scan = new Scanner(System.in);
 
         while (true)
@@ -49,7 +49,7 @@ public class Task3 {
     }
     static void PrintVector(float[] vector)
     {
-        for(int i = 0; i < vector.length; i++) System.out.print(Math.round(vector[i] * 1000.0)/1000.0  + " ");
+        for (float v : vector) System.out.print(Math.round(v * 1000.0) / 1000.0 + " ");
     }
     public static  void main(String[] args) {
         int n = InputSize();
